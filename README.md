@@ -35,8 +35,7 @@ Fungsionalitas utama API ini mencakup operasi **CRUD** (Create, Read, Update, De
 
 1.  **Clone Repository (jika ada):**
     ```bash
-    git clone [URL_GITHUB_KAMU]
-    cd UTS-WSE-230104040059
+    git clone https://github.com/Siti-Magfiratun-Warahmah/230104040059-UTS-WSE-20251
     ```
 
 2.  **Install Dependencies:**
@@ -96,3 +95,4 @@ Proyek ini menerapkan 7 prinsip RESTful API sesuai materi perkuliahan:
 
 7.  **Discoverability:**
     Menyediakan endpoint `GET /api/info` sebagai metadata service, yang memberikan informasi dasar tentang API, pembuat, dan deskripsinya.
+
