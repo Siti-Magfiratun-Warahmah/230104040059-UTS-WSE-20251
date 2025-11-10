@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "ed47827b-5c33-482d-a9a0-c28b8258bb97",
+		"name": "UTS-WSE-MOVIE-230104040059",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48439557",
+		"_collection_link": "https://telecoms-operator-75874150-7271949.postman.co/workspace/Siti-Magfiratun-Warahmah's-Work~6c0d747f-f9e4-447d-8031-68f102259e64/collection/48439557-ed47827b-5c33-482d-a9a0-c28b8258bb97?action=share&source=collection_link&creator=48439557"
+	},
+	"item": [
+		{
+			"name": "GET by id:3 movie",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Laptop Pro X\",\r\n  \"price\": 12000000,\r\n  \"stock\": 5\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/products/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET all movie",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "POST new movie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Oppenheimer\",\r\n  \"genre\": \"Biography\",\r\n  \"year\": 2023\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/movies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT update id:1 movie",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Interstellar (Director's Cut)\",\r\n  \"genre\": \"Sci-Fi\",\r\n  \"year\": 2014\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/movies/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE id:2 movie",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/movies/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"movies",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET info",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
